@@ -1,0 +1,254 @@
+/* NAV-resp */
+
+@media screen and (max-width: 1030px) {
+  .nav-link a {
+    display: none;
+  }
+
+  #browse{
+    display: block !important;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding-top: 3.5vh;
+    width: 30px;
+  
+    
+  }
+  .nav-btn {
+    display: none;
+  }
+}
+@media only screen and (min-width: 729px) and (max-width: 1000px) {
+  .cont2 {
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 100vh;
+    width: 100%;
+  }
+
+  .cards {
+    /* height: auto; */
+    /* height: 120vh; */
+    width: 100vw;
+    /* margin: 10px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .cont2-text {
+    width: 70vw;
+  }
+  .cont2-text h1 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 729px) {
+  .cont-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-image: none; */
+
+    background-position-x: -270px;
+  }
+
+  .cont-1-text {
+    /* margin:5px; */
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    font-size: 10px;
+
+    color: white;
+    width: 95%;
+    padding: 10px;
+  }
+
+  .cont-1-text h1 {
+    font-size: 34px;
+  }
+  .cont-1-text h4 {
+    font-size: 20px;
+  }
+
+  .btn {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    padding: 10px;
+  }
+
+  /* 2nd Container */
+  .cont1-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-image: none; */
+    margin: 0px;
+
+    background-position-x: -250px;
+  }
+
+  .cont1-2-text {
+    margin: 5px;
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    font-size: 10px;
+
+    color: white;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .cont1-2-text h1 {
+    font-size: 34px;
+  }
+  .cont1-2-text p {
+    font-size: 20px;
+  }
+
+  .btn {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    padding: 10px;
+  }
+
+  /* 3rd SEction */
+
+  .cont2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .cont2-text {
+    margin: 10px;
+    width: 90%;
+  }
+
+  .cont2-text h1 {
+    font-size: 28px;
+  }
+
+  .cards {
+    height: 120vh;
+    width: 95%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  /* 4th section */
+
+  .firestick {
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-image: none; */
+    height: 90vh;
+
+    justify-content: end;
+    align-items: center;
+    margin: 0%;
+    padding: 0;
+
+    background-position-x: 18%;
+    background-position-y: -130px;
+    /* background-position: center; */
+    background-size: cover;
+  }
+
+  .fire-text {
+    margin: -18px;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    font-size: 12px;
+
+    /* height: auto; */
+
+    background-color: black;
+  }
+  .fire-text h1 {
+    font-size: 32px;
+    margin-bottom: -10px;
+  }
+
+  .fire-text p {
+    font-size: 14px;
+    /* margin-bottom: -0px; */
+  }
+
+  .btn-3 {
+    margin-left: 18%;
+    width: 50%;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* 5th section  */
+
+  .cartoon {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-image: none; */
+    height: 90vh;
+
+    justify-content: end;
+    align-items: center;
+    margin: 0%;
+    padding: 0;
+
+    background-position-x: -70%;
+    background-position-y: -130px;
+    /* background-position: center; */
+    /* background-size: cover; */
+  }
+
+  .cartoon-text {
+    margin: -18px;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    font-size: 12px;
+
+    /* height: auto; */
+
+    background-color: black;
+  }
+  .cartoon-text h1 {
+    font-size: 32px;
+    margin-bottom: -10px;
+  }
+
+  .cartoon-text p {
+    font-size: 14px;
+    /* margin-bottom: -0px; */
+  }
+
+  .btn-3 {
+    margin-left: 18%;
+    width: 70%;
+    font-size: 20px;
+  }
+}
